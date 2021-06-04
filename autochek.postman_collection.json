@@ -1,0 +1,395 @@
+{
+	"variables": [],
+	"info": {
+		"name": "autochek",
+		"_postman_id": "9844d722-53cd-032a-8216-fe244b30129e",
+		"description": "autochek.africa test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get locations",
+			"request": {
+				"url": "localhost:3000/location",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "locationName",
+							"value": "Abuja",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "website",
+							"value": "autochek.africa/location/abuja",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "07061097224",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "contactPerson",
+							"value": "Acheme Paul",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "9.019560",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "7.489520",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Autocheck branch in Abuja",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Calculate Distance",
+			"request": {
+				"url": "localhost:3000/location",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "locationName",
+							"value": "Abuja",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "website",
+							"value": "autochek.africa/location/abuja",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "07061097224",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "contactPerson",
+							"value": "Acheme Paul",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "9.019560",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "7.489520",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Autocheck branch in Abuja",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get locations Single Location",
+			"request": {
+				"url": "localhost:3000/location",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "locationName",
+							"value": "Abuja",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "website",
+							"value": "autochek.africa/location/abuja",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "07061097224",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "contactPerson",
+							"value": "Acheme Paul",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "9.019560",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "7.489520",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Autocheck branch in Abuja",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Location",
+			"request": {
+				"url": "localhost:3000/location",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "locationName",
+							"value": "Abuja",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "website",
+							"value": "autochek.africa/location/abuja",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "07061097224",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "contactPerson",
+							"value": "Acheme Paul",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "9.019560",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "7.489520",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Autocheck branch in Abuja",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Create Location",
+			"request": {
+				"url": "localhost:3000/location",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "locationName",
+							"value": "Lagos",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "website",
+							"value": "autochek.africa/location/abuja",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "07061097224",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "contactPerson",
+							"value": "Acheme Paul",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "6.590660",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "3.351080",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Autocheck branch in Lagos",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get locations copy",
+			"request": {
+				"url": "localhost:3000/location",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "locationName",
+							"value": "Abuja",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "website",
+							"value": "autochek.africa/location/abuja",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "07061097224",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "contactPerson",
+							"value": "Acheme Paul Enokela",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "9.019560",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "7.489520",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Autocheck branch in Abuja",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

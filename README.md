@@ -27,7 +27,8 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 ## Watch Out
-1. Validation Pipeline is setup in main.ts to validate incoming requests
+1. The postman request sample is included (autochek.postman_collection.json)
+2. Validation Pipeline is setup in main.ts to validate incoming requests
 
 ## Improving the App
 1. The app can be improved by adding an authentication mechanism, so that only authorized persons

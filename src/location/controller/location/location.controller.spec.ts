@@ -15,4 +15,5 @@ describe('LocationController', () => {
   it('should be defined', () => {
     expect(controller).toBeDefined();
   });
+  
 });
